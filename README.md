@@ -27,7 +27,7 @@
     
     # Lets send the email
   
-    # This is out email content (a html file) You can also refer
+    # This is our email content (a html file) You can also refer
     # to variables like jinja template
     html_file_path = '/some/path/name.html' # <h1>Hey {{ name }}<h1>
     context = {'name': 'Anonymous'} # The value of variable in html {{ name }}
